@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: #0c0c0c;
+  font-family: 'Kanit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-height: 100vh;
+  color: #d7e2ea;
+  overflow-x: hidden;
+}
+
+.hero-heading {
+  background: linear-gradient(180deg, #646973 0%, #bbccd7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Subtle scrollbar styled in electric neon blue */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #0c0c0c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #0084FF, #00F0FF);
+  border-radius: 6px;
+  border: 2px solid #0c0c0c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #0070db, #00d6e5);
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}

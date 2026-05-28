@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+
+# Large root-level media files (video lives in public/ for Next.js)
+/intro.mp4
+/harsh.png
+
+# Next.js build output
+.next
+out
+dist
+dist-ssr
+
+# Vercel
+.vercel
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# IDE
+.vscode
+.idea
